@@ -2,7 +2,7 @@
 title: Hello World
 description: 第一个汇编程序
 published: true
-date: 2022-07-25T11:49:23.471Z
+date: 2022-07-25T11:51:40.112Z
 tags: 汇编语言
 editor: markdown
 dateCreated: 2022-07-25T10:04:39.106Z
