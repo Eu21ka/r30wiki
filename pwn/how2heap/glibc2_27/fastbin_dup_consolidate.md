@@ -2,7 +2,7 @@
 title: fastbin dup consolidate
 description: 
 published: true
-date: 2022-10-04T13:18:36.274Z
+date: 2022-10-04T13:20:34.937Z
 tags: pwn, 堆利用
 editor: markdown
 dateCreated: 2022-10-04T13:18:36.274Z
@@ -28,7 +28,7 @@ void main() {
 
 	void* p1 = calloc(1,0x40);
 
-	printf("Allocate another chunk of the same size p1=%p \n", p1);
+  printf("Allocate another chunk of the same size p1=%p \n", p1);
   printf("Freeing p1 will add this chunk to the fastbin list...\n\n");
   free(p1);
 
