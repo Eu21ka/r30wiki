@@ -2,7 +2,7 @@
 title: 调用printf函数
 description: 这节主要介绍用汇编来写一个调用printf函数的程序
 published: true
-date: 2022-10-10T07:01:49.434Z
+date: 2022-10-10T07:33:02.145Z
 tags: 汇编语言
 editor: markdown
 dateCreated: 2022-10-10T07:01:49.434Z
@@ -54,3 +54,8 @@ alive: alive.o
 alive.o: alive.asm
         nasm -f elf64 -g -F dwarf alive.asm -l alive.lst
 ```
+
+## alive程序分析
+先看到`alive.asm`的第3行，这里定义了`msg1Len`这个变量
+
+
