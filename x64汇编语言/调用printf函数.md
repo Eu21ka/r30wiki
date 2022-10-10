@@ -2,7 +2,7 @@
 title: 调用printf函数
 description: 这节主要介绍用汇编来写一个调用printf函数的程序
 published: true
-date: 2022-10-10T07:33:02.145Z
+date: 2022-10-10T10:30:02.442Z
 tags: 汇编语言
 editor: markdown
 dateCreated: 2022-10-10T07:01:49.434Z
@@ -56,6 +56,6 @@ alive.o: alive.asm
 ```
 
 ## alive程序分析
-先看到`alive.asm`的第3行，这里定义了`msg1Len`这个变量
+先看到`alive.asm`的第3行，这里定义了`msg1Len`这个变量，`equ`是个汇编伪指令，作用是将符号名和一个表达式或者一个任意文本连接起来，这里将`msg1Len`和表达式`$-msg1-1`连接了起来。
 
 
